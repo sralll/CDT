@@ -1,27 +1,29 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.74218749999999,
-          40.34654412118006
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.56640625,
-          36.77409249464195
-        ]
-      }
-    }
-  ]
+'type': 'FeatureCollection',
+'features': [
+{
+// feature for Mapbox DC
+'type': 'Feature',
+'geometry': {
+'type': 'Point',
+'coordinates': [
+-77.03238901390978, 38.913188059745586
+]
+},
+'properties': {
+'title': 'Mapbox DC'
+}
+},
+{
+// feature for Mapbox SF
+'type': 'Feature',
+'geometry': {
+'type': 'Point',
+'coordinates': [-122.414, 37.776]
+},
+'properties': {
+'title': 'Mapbox SF'
+}
+}
+]
 }
