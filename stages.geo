@@ -1,5 +1,27 @@
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [-77, 37.9]}, "properties": {"title": 'Marker one', "description": 'Wow, this tooltip is breaking all the rules.','marker-color': '#548cba'}},
-{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [-78, 36.5]}, "properties": {"title": 'Marker two', "description": 'Another marker, including <a href="http://mapbox.com">a link</a>.','marker-color': '#548cba'}}
-]
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.74218749999999,
+          40.34654412118006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.56640625,
+          36.77409249464195
+        ]
+      }
+    }
+  ]
+}
