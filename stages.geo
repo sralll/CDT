@@ -2,28 +2,26 @@
 'type': 'FeatureCollection',
 'features': [
 {
-// feature for Mapbox DC
 'type': 'Feature',
 'geometry': {
 'type': 'Point',
-'coordinates': [
--77.03238901390978, 38.913188059745586
-]
+'coordinates': [-77.032, 38.913]
 },
 'properties': {
-'title': 'Mapbox DC'
+'title': 'Mapbox',
+'description': 'Washington, D.C.'
 }
 },
 {
-// feature for Mapbox SF
 'type': 'Feature',
 'geometry': {
 'type': 'Point',
 'coordinates': [-122.414, 37.776]
 },
 'properties': {
-'title': 'Mapbox SF'
+'title': 'Mapbox',
+'description': 'SF'
 }
 }
 ]
-};
+}
